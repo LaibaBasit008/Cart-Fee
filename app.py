@@ -15,9 +15,6 @@ def calculateDeliveryFee():
         noOfItems=data.get('number_of_items')
         time=data.get('time')
         deliveryCost=deliveryFee(cartValue,deliveryDistance,noOfItems,time)
-        
-        
-
     return {"delivery_fee":deliveryCost}
     
 if __name__ =='__main__':
